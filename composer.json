@@ -1,0 +1,17 @@
+{
+	"name": "digicreon/temma-skeleton",
+	"description": "Temma skeleton app",
+	"license": "MIT",
+	"type": "project",
+	"homepage": "https://www.temma.net",
+	"require": {
+		"php": ">=8.0",
+		"digicreon/temma-framework": ">=2.10"
+	},
+	"suggest": {
+		"smarty/smarty": "Smarty is an easy-to-use template engine. Use it if you need to generate HTML streams with Temma."
+	},
+	"scripts": {
+		"post-create-project-cmd": "chmod 777 log tmp"
+	}
+}
